@@ -45,7 +45,7 @@ public class DictionaryDriver
     {
         Thread.sleep(2000);
         System.out.println(ANSI_YELLOW + "===== DICTIONARY 340 JAVA =====" + ANSI_RESET +"\n----- Keywords: 19" + "\n----- Definitions: 61\n\nThe " +
-                "four words you can search are:" + ANSI_BLUE + "  arrow " + ANSI_RESET + " | " + ANSI_BLUE + " book " + ANSI_RESET + " | " + ANSI_BLUE +
+                "six words you can search are:" + ANSI_BLUE + "  arrow " + ANSI_RESET + " | " + ANSI_BLUE + " book " + ANSI_RESET + " | " + ANSI_BLUE +
                 " distinct " + ANSI_RESET + " | " + ANSI_BLUE + " placeholder " + ANSI_RESET + " | " + ANSI_BLUE + " reverse " + ANSI_RESET + " ||-> " + ANSI_BLUE +
                 " !help " + ANSI_RESET + " (for more information)\n");
         Thread.sleep(2000);
