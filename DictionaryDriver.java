@@ -48,6 +48,7 @@ public class DictionaryDriver
                 "six words you can search are:" + ANSI_BLUE + "  arrow " + ANSI_RESET + " | " + ANSI_BLUE + " book " + ANSI_RESET + " | " + ANSI_BLUE +
                 " distinct " + ANSI_RESET + " | " + ANSI_BLUE + " placeholder " + ANSI_RESET + " | " + ANSI_BLUE + " reverse " + ANSI_RESET + " ||-> " + ANSI_BLUE +
                 " !help " + ANSI_RESET + " (for more information)\n");
+        System.out.println("Enter " + ANSI_BLUE + " !q " + ANSI_RESET + " to quit.\n");
         Thread.sleep(2000);
 
         System.out.println(DictionaryBackEnd.getHowToMessage() + "\n" + ANSI_YELLOW + "*** Order of parameters DOES MATTER ***" + ANSI_RESET);
